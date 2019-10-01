@@ -3,24 +3,23 @@
  */
 package com.curley.gators.model;
 
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-/*import javax.persistence.Entity;
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.Id;*/
+import javax.persistence.Id;
 
 /**
  * Represents NFL Player and their ratings
  * 
  * @author Mayor Curley
  */
-//@Entity
-@Component
+@Entity
+//@Component
 public class Player {
-    /*
-     * @Id
-     * @GeneratedValue
-     */
+
+    @Id
+    @GeneratedValue
     private Long id;
 
     private String firstName;
